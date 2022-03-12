@@ -1,5 +1,6 @@
 body {
     background-color: rgb(75, 75, 75);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .page-container {
@@ -9,8 +10,21 @@ body {
     margin-right: 20%;
 }
 
-h1 {
+h1, h2, h3 {
     text-align: center;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+li {
+    margin-right: 5px
 }
 
 img {
