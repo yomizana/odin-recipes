@@ -20,6 +20,10 @@ img {
     width: 500px;
 }
 
+hr {
+    border: 1px solid black;
+}
+
 #recipe-list {
     text-align: center;
     list-style: none;
