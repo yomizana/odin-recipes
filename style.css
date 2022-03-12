@@ -10,8 +10,12 @@ body {
     margin-right: 20%;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .navigation {
     text-align: center;
+}
+
+.navigation {
+    font-size: 16px;
 }
 
 p, li {
