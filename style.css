@@ -15,7 +15,37 @@ h1, h2, h3, .navigation {
 }
 
 .navigation {
+    background-color: black;
     font-size: 16px;
+    display: flex;
+    gap: 2px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 0 auto;
+}
+
+.navigation li a {
+    background-color: teal;
+    display: flex;
+    padding: 5px;
+    gap: 4px;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: rgb(55, 61, 61);
+}
+
+.navigation a:hover {
+    text-decoration: underline;
 }
 
 p, li {
@@ -25,10 +55,6 @@ p, li {
 p {
     margin-left: 10px;
     margin-right: 10px;
-}
-
-li {
-    margin-right: 5px
 }
 
 img {
